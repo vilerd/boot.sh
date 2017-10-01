@@ -15,7 +15,7 @@
 COMMIT
 
 *nat
--A PREROUTING -p tcp --dport 2202 -j REDIRECT --to-ports 22
+-A PREROUTING -p tcp --dport 22 -j REDIRECT --to-ports 2202
 COMMIT
 
 
