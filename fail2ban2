@@ -216,7 +216,7 @@ action = %(action_)s
 enabled  = true
 port     = 2202
 filter   = sshd
-action   = iptables[name=SSH, port=2202, protocol=tcp]
+action   = iptables
 logpath  = /var/log/auth.log
 maxretry = 3
 bantime     = 600
